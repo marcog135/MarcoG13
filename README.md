@@ -1,37 +1,49 @@
 ## Welcome to GitHub Pages
+<html lang="es">
 
-You can use the [editor on GitHub](https://github.com/marcog135/MarcoG13/edit/marco/README.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <!-- Metadata para PWA -->
+    <!-- Modificar color barra de estado ANDROID -->
+    <meta name="theme-color" content="#41b883" />
+    <!-- Optimizaciones de SEO -->
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <!-- Modificar Barra de estado IOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-### Markdown
+    <title>Marco</title>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <!-- Iconos -->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="./img/favicon.png" />
+    <link rel="apple-touch-startup-image" href="./img/favicon.png" />
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+    <!-- Hojas de estilos -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
-1. Numbered
-2. List
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/marcog135/MarcoG13/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<body>
+    <div class="sise">
+        <h1 style="color:green;">E-Bussiness</h1>
+    </div>
+    <div class="dato1">
+        <label for="name">Apellidos Completos :</label>
+    </div>
+    <p class="apellido">Garcia Urbano</p>
+    <div class="dato2">
+        <label class="dato2" for="name">Nombres Completos :</label>
+    </div>
+    <p class="nombre">Marco Sebastian</p>
+    
+    <p class="parrafo">El E-business (Electronic business) es un concepto genérico que hace referencia a todas las formas de utilización de las TIC que asisten a los procesos comerciales de ventas en todas sus fases o mejoran su eficiencia. Con el término eCommerce, sin embargo, se hace referencia a la comercialización de productos y servicios en Internet, representando solo una parte de lo que abarca el amplio concepto de eBusiness.</p>
+   
+</html>
